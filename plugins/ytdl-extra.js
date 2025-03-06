@@ -66,6 +66,10 @@ cmd({
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+          newsletterJid: "120363354023106228@newsletter",
+          newsletterName: "DARK SHADOW",
+          serverMessageId: 143
         }
       }
     }, { quoted: m });
